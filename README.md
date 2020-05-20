@@ -10,3 +10,9 @@ Python script that handles the convertion of admonitions from Markdown to LaTeX
   \definecolor{NOTES}{cmyk}{0.80, 0.13, 0.14, 0.04, 1.00}
   ```
 3. This script will produce anitermediary file that you can convert in full LaTeX with Pandoc
+
+## How to use
+
+```bash
+python admonition.py FILE_IN FILE_OUT
+```
